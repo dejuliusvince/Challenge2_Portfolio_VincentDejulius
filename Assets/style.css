@@ -1,0 +1,59 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: xx-large;
+    color:white;
+}
+
+header {
+   display: flex;
+   height: 100px;
+   background-color: pink;
+}
+
+header h1{
+    padding-left: 35px;
+    padding-top: 33px;
+    position: relative;
+}
+
+nav {
+  text-align: right;
+  height: 35px;
+  background-color: white;
+}
+
+nav a {
+    
+    font-size: large;
+    padding-right:50px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+section {
+    margin: 30px 30px 30px 30px; 
+}
+
+.card {
+    width: 620px;
+    margin: 20px 20px 20px 20px;
+    height: 420px;
+    background-color: pink;
+    border: solid 10px white;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+
+
+
+img{
+    
+}
