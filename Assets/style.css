@@ -1,59 +1,51 @@
-* {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h1 {
-    font-size: xx-large;
-    color:white;
-}
-
 header {
-   display: flex;
-   height: 100px;
-   background-color: pink;
+    background-color: pink;
+    padding: 45px;
+    color: whitesmoke
 }
 
-header h1{
-    padding-left: 35px;
-    padding-top: 33px;
-    position: relative;
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 38px;
+    display: inline-block;
+    
 }
 
 nav {
-  text-align: right;
-  height: 35px;
-  background-color: white;
+    float: right;
+    color: whitesmoke;
+    padding-top: 7px;
 }
 
-nav a {
+header nav ul li {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-right: 30px;
     
-    font-size: large;
-    padding-right:50px;
-
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    background-color: lightblue;
-}
-
-section {
-    margin: 30px 30px 30px 30px; 
-}
-
-.card {
-    width: 620px;
-    margin: 20px 20px 20px 20px;
-    height: 420px;
-    background-color: pink;
-    border: solid 10px white;
-    flex-direction: column;
-    flex-wrap: wrap;  
-}
-
-
-
-img{
     
+}
+
+.main-card {
+    width: 60%;
+    background-color: cyan;
+
+}
+
+.main-card h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 35%;
+    float: right;
+    border-style: solid darkblue;
+    background-color: cyan;
+}
+
+
+.side-card h1{
+    text-align: center;
 }
